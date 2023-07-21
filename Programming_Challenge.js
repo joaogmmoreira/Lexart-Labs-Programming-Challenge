@@ -1,10 +1,4 @@
 /* eslint-disable no-console */
-// Create an algorithm that traverses a one-dimensional
-// array containing letters and numbers: ["a", 10, "b", "hello", 122, 15].
-
-// Obtain an array containing only letters.
-// Obtain an array containing only numbers.
-
 const whatImLookingFor = (type, array) => {
   if (type === 'letters') {
     if (array.some((element) => typeof element === 'string')) {
@@ -37,8 +31,6 @@ const whatImLookingFor = (type, array) => {
 
   return 'None of these elements are numbers';
 };
-
-// Obtain the largest number from the previous array.
 
 const largestNumber = (array) => {
   const numbers = whatImLookingFor('numbers', array);
